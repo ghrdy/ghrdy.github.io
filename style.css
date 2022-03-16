@@ -1,0 +1,116 @@
+body,html{
+  background-color: WhiteSmoke;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0;
+  position: relative;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.header p{
+  display: flex;
+  align-items: flex-end;
+  margin:0;
+  margin-left: 20px;
+  font-size: 2em;
+  font-family:Arial ;
+  color: grey;
+}
+
+.ligne{
+  margin-left: .5%;
+  width: 98.5%;
+  border-bottom: 2px solid grey;
+  position: relative;
+  height: 1px;
+}
+
+.ligne-verticale{
+  width: 2px;
+  background-color: lightgrey;
+  height: 170px;
+  position: absolute;
+
+}
+
+.menu-deroulant{
+  margin: 8px;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+  width: 200px;
+  height: 200px;
+}
+
+.menu-deroulant ul {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; 
+  top: 0;
+  left:  93px;
+  width: 100px;
+  display: none;
+}
+
+.menu-deroulant li {
+  position: relative;
+  width: 91px;
+}
+
+.menu-deroulant a {
+  text-decoration: none;
+  display: block;
+  width: 93px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.menu-deroulant li:hover ul {
+  display: block ;
+  position: absolute; 
+}
+
+.menu-deroulant li a {
+  color: blue;
+} 
+.menu-deroulant li:hover {
+  z-index:100;
+  background-color: lightcoral;
+}
+
+.menu-deroulant ul li a {
+  color: blue;
+} 
+
+.texte{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.texte p{
+  margin: 0;
+  position: relative;
+  width: 70%;
+  color: lightgrey;
+}
+
+.flexcontent{
+  display: flex;
+  flex-direction: row;
+}
+
+.menuETligne{
+  margin-left:10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
