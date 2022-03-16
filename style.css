@@ -90,6 +90,7 @@ body,html{
 } 
 
 .texte{
+  margin-top:20px;
   position: relative;
   width: 100%;
   height: 200px;
